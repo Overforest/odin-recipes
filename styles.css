@@ -1,0 +1,27 @@
+body {
+    background: #F5E8E4;
+}
+
+p,
+h1,
+h3
+ {
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #3D3C42
+}
+
+h1,
+h3 {
+    background-color: #411530;
+    color: #D1512D;
+}
+
+.image {
+    text-align: center;
+    width: 500;
+    height: auto;
+}
