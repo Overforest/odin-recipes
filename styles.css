@@ -4,8 +4,8 @@ body {
 
 p,
 h1,
-h3
- {
+h2,
+h3 {
     font-family: Verdana, Arial, sans-serif;
     text-align: center;
 }
@@ -15,6 +15,7 @@ p {
 }
 
 h1,
+h2,
 h3 {
     background-color: #411530;
     color: #D1512D;
@@ -22,8 +23,8 @@ h3 {
 
 .image {
     text-align: center;
-    width: 500;
-    height: auto;
+    width: auto;
+    height: 400;
 }
 
 button {
@@ -41,4 +42,15 @@ button {
 .orange {
     background-color: #D1512D;
     color: #411530;
+}
+
+div.list-container {
+    text-align: center;
+}
+
+.list {
+    display: inline-block;
+    text-align: left;
+    font-family: Verdana, Arial, sans-serif;
+    color:#3D3C42
 }
