@@ -25,3 +25,20 @@ h3 {
     width: 500;
     height: auto;
 }
+
+button {
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.burgundy {
+    background-color: #411530;
+    color: #D1512D;
+}
+
+.orange {
+    background-color: #D1512D;
+    color: #411530;
+}
