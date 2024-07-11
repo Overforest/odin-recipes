@@ -46,9 +46,36 @@ img {
     gap: 0.5em;
 }
 
-.frontpage-container a {
+a {
     text-decoration: none;
     font-size: 1.2em;
     color: #FAEED1;
     text-shadow: 0.05em 0.05em #443b34;
+}
+
+.recipe-container {
+    background-color: #B2A59B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    border-radius: 5%;
+    text-align: center;
+    padding: 3%;
+    margin: 0%;
+}
+
+.recipe-container p, li{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #FAEED1;
+    text-shadow: 0.05em 0.05em #443b34;
+}
+
+h2 {
+    color: #FAEED1;
+    font-weight: 800;
+    font-size: 2em;
+    text-shadow: 0.05em 0.05em #443b34;
+    margin: 0%;
 }
